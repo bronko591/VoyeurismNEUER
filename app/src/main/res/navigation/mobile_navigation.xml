@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/chaturbateFragment">
+
+    <fragment
+        android:id="@+id/chaturbateFragment"
+        android:name="com.example.voyeurism.fragments.ChaturbateFragment"
+        android:label="fragment_chaturbate"
+        tools:layout="@layout/fragment_chaturbate" >
+        <action
+            android:id="@+id/action_chaturbateFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_chaturbateFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.voyeurism.fragments.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_chaturbateFragment"
+            app:destination="@id/chaturbateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.voyeurism.fragments.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_chaturbateFragment"
+            app:destination="@id/chaturbateFragment" />
+    </fragment>
+</navigation>

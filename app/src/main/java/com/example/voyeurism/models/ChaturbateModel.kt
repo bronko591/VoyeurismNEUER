@@ -1,0 +1,30 @@
+package com.example.voyeurism.models
+
+import java.util.ArrayList
+
+data class ChaturbateModel(val gender:String,
+                           val location:String,
+                           val current_show:Boolean,
+                           val username:String,
+                           val room_subject:String,
+                           val tags:ArrayList<String>,
+                           val is_new:Boolean,
+                           val num_users: Int,
+                           val num_followers:Int,
+                           val spoken_languages:String,
+                           val display_name:String,
+                           val birthday:String,
+                           val is_hd:Boolean,
+                           val age:Int,
+                           val seconds_online:Int,
+                           val image_url:String,
+                           val image_url_360x270:String,
+                           val chat_room_url_revshare:String,
+                           val iframe_embed_revshare:String,
+                           val chat_room_url:String,
+                           val iframe_embed:String,
+                           val block_from_countries:String,
+                           val block_from_states:String,
+                           val recorded:Boolean,
+                           val slug:Boolean,
+                           val link:String)

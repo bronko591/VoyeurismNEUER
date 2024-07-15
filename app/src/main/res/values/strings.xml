@@ -1,0 +1,17 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Voyeurism</string>
+
+    <string name="exo_track_resolution_pixel"><xliff:g example="768" id="height">%1$dp</xliff:g></string>
+    <string name="qualitySelector">Select Quality</string>
+
+    <!-- Preference Titles -->
+    <string name="check_box_pip">check_box_pip</string>
+
+    <!-- Preference DarkMode -->
+    <string name="dark_mode">Change Theme</string>
+    <string name="dark_mode_def_value">MODE_NIGHT_FOLLOW_SYSTEM</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+
+</resources>

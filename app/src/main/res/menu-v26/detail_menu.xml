@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/filter_"
+        android:icon="@drawable/homepage_filters_icon"
+        android:iconTint="@color/white"
+        android:title="Filter"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:title="Cast"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light"
+        android:iconTint="@color/white"
+        app:showAsAction="always"/>
+
+</menu>

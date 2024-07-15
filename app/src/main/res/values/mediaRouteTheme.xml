@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+<style name="Theme.CastVideosTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- ... -->
+    <item name="mediaRouteTheme">@style/CustomMediaRouterTheme</item>
+</style>
+    <style name="CustomCastExpandedController" parent="CastExpandedController">
+        <item name="castButtonColor">@null</item>
+        <item name="castPlayButtonDrawable">@drawable/cast_ic_expanded_controller_play</item>
+        <item name="castPauseButtonDrawable">@drawable/cast_ic_expanded_controller_pause</item>
+        <item name="castStopButtonDrawable">@drawable/cast_ic_expanded_controller_stop</item>
+        <item name="castSkipPreviousButtonDrawable">@drawable/cast_ic_expanded_controller_skip_previous</item>
+        <item name="castSkipNextButtonDrawable">@drawable/cast_ic_expanded_controller_skip_next</item>
+        <item name="castRewind30ButtonDrawable">@drawable/cast_ic_expanded_controller_rewind30</item>
+        <item name="castForward30ButtonDrawable">@drawable/cast_ic_expanded_controller_forward30</item>
+    </style>
+</resources>
